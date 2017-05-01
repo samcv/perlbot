@@ -11,4 +11,4 @@ before_install:
     - cpanm install WebService::UrbanDictionary
 install:
     - rakudobrew build-zef
-    - zef --depsonly .
+    - zef --depsonly install .
